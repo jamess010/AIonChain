@@ -9,8 +9,8 @@
 6. 第三方机构将更新的模型参数汇集，并将汇集好的模型参数放到IPFS中，hash放到区块>链，模型拥有者读取模型
 
 # 目录说明
-notebook：python 智能合约demo
-edges: 边缘设备（如手机，ipad等），docker模拟使用自己的隐私数据训练模型
-master: 模型拥有者
-3th_party: 第三方机构
-utils: 工具类
+notebook：python 智能合约demo </br>
+edges: 边缘设备（如手机，ipad等），docker模拟使用自己的隐私数据训练模型</br>
+master: 模型拥有者</br>
+3th_party: 第三方机构</br>
+utils: 工具类</br>
