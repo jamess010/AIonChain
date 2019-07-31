@@ -1,0 +1,70 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "initErr",
+                "type": "uint256"
+            }
+        ],
+        "name": "setInitErr",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "initErr",
+                "type": "uint256"
+            },
+            {
+                "name": "targetErr",
+                "type": "uint256"
+            }
+        ],
+        "name": "setModel",
+        "outputs": [],
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "getModel",
+        "outputs": [
+            {
+                "name": "",
+                "type": "address"
+            },
+            {
+                "name": "",
+                "type": "uint256"
+            },
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "getModelInitErr",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
